@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+    color: #041455;
+    letter-spacing: 2px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.wrapper{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(194, 207, 228);
+}
+.row{
+    margin-top: 20px;
+    text-align: center;
+}
+.status{
+    visibility: hidden;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.added{
+    background-color: rgb(189, 254, 192);
+    color: rgb(37, 97, 39);
+}
+.error{
+    background-color: rgb(235, 178, 178);
+    color: rgb(235, 61, 61);
+}
+.input{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    border-radius: 5px;
+    overflow: hidden;
+}
+input{
+    background-color: aliceblue;
+    border: none;
+    font-size: 16px;
+    padding: 2px 10px;
+
+}
+.input button{
+    background-color: rgb(132, 198, 255);
+    letter-spacing: 2px;
+}
+.input button:hover{
+    background-color: rgb(50, 143, 225);
+    color: white;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: rgb(71, 71, 71);
+}
+li:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: rgb(126, 125, 125);
+}
+button[id='edit']{
+    color: #2de339;
+}
+button[id='edit']:hover{
+    color: #26BA31;
+}
+button[id='delete']{
+    color: rgb(245, 121, 121)
+}
+button[id='delete']:hover{
+    color: #BB2524;
+}
+button[id='clear']{
+    display: block;
+    visibility: hidden;
+    margin: auto;
+    color: #BB2524;
+    letter-spacing: 2px;
+}
